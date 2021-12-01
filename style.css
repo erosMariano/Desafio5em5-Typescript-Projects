@@ -1,0 +1,138 @@
+html body.page-product-single .responsive-product-infos .product-info__title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px !important;
+	line-height: 20px !important;
+	/* identical to box height, or 125% */
+
+	text-align: center;
+
+	color: #000000;
+	margin: 0 auto !important;
+	padding-bottom: 10px;
+}
+
+html body.page-product-single .responsive-product-infos .product-info__ref {
+	max-width: 321px;
+	font-size: 12px;
+	line-height: 19px;
+	/* identical to box height */
+
+	color: #858585;
+	padding-bottom: 23px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+html body.page-product-single .product-showcase__product-badge {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	background: #34a853;
+	border: 0.7px solid #34a853;
+	box-sizing: border-box;
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.12);
+	border-radius: 2px;
+	color: #fff;
+}
+
+html body.page-product-single .product-info .product-info__mkt {
+	font-size: 14px;
+	line-height: 18px;
+	color: #363636;
+	border-left: 2px solid #858585;
+	padding-left: 13px;
+	margin-top: 32px;
+	margin-bottom: 6px;
+}
+html body.page-product-single .product-info__mkt strong {
+	font-weight: 600;
+	color: #b31823;
+	font-size: 16px;
+}
+.icon-c-info:before {
+	display: none;
+}
+
+html body.page-product-single .product-info {
+	display: flex;
+	flex-direction: column;
+	align-items: self-start;
+}
+
+html body.page-product-single .js-product-section,
+html body.page-product-single .product-info__item-container,
+html body.page-product-single .product-info__item-container {
+	text-align: left;
+}
+html body.page-product-single .product-info__item-container,
+html body.page-product-single .product-info__item-container--postalcode {
+	width: 100%;
+}
+
+body.page-product-single .product-info__old-value {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+body.page-product-single .product-info__old-value span {
+	font-size: 16px;
+	font-weight: normal;
+	margin-right: 10px;
+	color: #a8a8a8;
+}
+body.page-product-single
+	.product-info
+	.product-info__installments:nth-child(1) {
+	margin-bottom: 10px;
+}
+
+html body.page-product-single .product-info__flex-container {
+	margin: 10px 0 16px 0;
+}
+
+html body.page-product-single .product-info__installments-text {
+	font-size: 14px;
+	line-height: 147.68%;
+	/* or 21px */
+	color: #363636;
+	margin-bottom: 10px;
+}
+html body.page-product-single .product-info__installments-text img {
+	margin-right: 4px;
+}
+
+.text-seguranca {
+	text-align: center;
+	margin-top: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+html body.page-product-single .product-info__form-input {
+	border: 1px solid #c6c6c6;
+	height: 33px;
+    width: 82%;
+}
+
+html body.page-product-single .product-info__btn--postalcode {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 34px;
+    width: 16%;
+    font-weight: 600;
+}
+html body.page-product-single .product-info__postalcode-container span {
+	font-size: 14px;
+	line-height: 19px;
+	/* identical to box height */
+    top: 7px;
+	color: #c6c6c6;
+}
+
+body.page-product-single .product-info__item-container--postalcode .product-info__label{
+    font-weight: 500;
+}
